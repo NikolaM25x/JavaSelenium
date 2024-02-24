@@ -4,6 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumTest {
     public static void main  (String [] args) throws InterruptedException {
+       // Goes first to google, than x where it gets and prints out page title, page source, window handle and page url.  
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
